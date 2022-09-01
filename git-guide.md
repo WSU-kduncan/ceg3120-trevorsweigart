@@ -38,3 +38,33 @@
 
 - merge
 	- merges git branches on local system
+	- `git merge development`
+
+- pull
+	- updates local repsoitory with remote repository
+	- `git pull`
+
+- branch
+	- creates a new git branch
+		- useful for adding new features or fixes to be able to test code before pushing it live
+	- `git branch new_branch`
+
+- checkout
+	- switches to a different branch
+	- `git checkout development`
+
+## git files and folders
+
+- .git folder
+	- contains all header and config information for directory to be a git repository
+
+- .gitignore
+	- folder for files that should not be uploaded to GitHub but still needed on the local system
+
+## Github
+
+- Pull Requests
+	- A request to merge one git branch into another
+
+- SSH Authentication
+	- A way to authenticate a github user using an SSH key rather then username and password with https authentication
