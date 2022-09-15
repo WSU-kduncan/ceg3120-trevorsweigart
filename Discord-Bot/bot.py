@@ -51,12 +51,12 @@ async def on_message(message):
     spongebob_quotes = [
         'Once upon a time there was an ugly barnacle. He was so ugly that everyone died. The end!',
         'Want to know something funnier than 24?....25!',
-        'I’ll have you know that I stubbed by toe last week and only cried for 20 minutes.',
+        'I’ll have you know that I stubbed my toe last week and only cried for 20 minutes.',
         'We\'re not cavemen....we have technology',
         'The inner machinations of my mind are an enigma.',
     ]
 
-    if message.content == 'spongequote!':
+    if message.content == '!spongequote':
         #response = random.choice(brooklyn_99_quotes)
         response = random.choice(spongebob_quotes)
         await message.channel.send(response)
