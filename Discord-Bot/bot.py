@@ -48,9 +48,17 @@ async def on_message(message):
         'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
     ]
 
-    if message.content == 'towel!':
+    spongebob_quotes = [
+        'Once upon a time there was an ugly barnacle. He was so ugly that everyone died. The end!',
+        'Want to know something funnier than 24?....25!',
+        'I’ll have you know that I stubbed by toe last week and only cried for 20 minutes.',
+        'We\'re not cavemen....we have technology',
+        'The inner machinations of my mind are an enigma.',
+    ]
+
+    if message.content == 'spongequote!':
         #response = random.choice(brooklyn_99_quotes)
-        response = random.choice(hitchhiker_quotes)
+        response = random.choice(spongebob_quotes)
         await message.channel.send(response)
 
 client.run(TOKEN)
