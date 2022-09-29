@@ -4,23 +4,23 @@ All images in *images* folder
 
 1. VPC:
   - A VPC is a private seperate private network that is only visible within the same network unless given other rules.
-  - ![VPC](images/vpc.jpg)
+  ![VPC](images/vpc.jpg)
 
 2. Subnet:
   - A subnet defines a range of IP addresses
-  - ![Subnet](images/subnet.jpg)
+  ![Subnet](images/subnet.jpg)
 
 3. Internet Gateway:
   - An internet gateway sits between the host and client network to route traffic to appropriate places
-  - ![Gateway](images/gateway.jpg)
+  ![Gateway](images/gateway.jpg)
 
 4. Routetable:
   - A routetable is a set of rules that tells the gateway where to route traffic
-  - ![Routetable](images/routetable.jpg)
+  ![Routetable](images/routetable.jpg)
 
 5. Security Group:
   - A security group controls what traffic is allowed to be outbound and inbound
-  - ![SecurityGroup](images/securitygroup.jpg)
+  ![SecurityGroup](images/securitygroup.jpg)
 
 # Part 2
 
